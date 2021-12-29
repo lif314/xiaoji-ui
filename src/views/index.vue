@@ -19,8 +19,8 @@
             size="mini"
             icon="el-icon-cloudy"
             plain
-            @click="goTarget('https://gitee.com/xiao-ji-smart-home/xiao-ji-admin-font')"
-            >访问码云</el-button
+            @click="goTarget('https://github.com/lif314/xiaoji-ui')"
+            >访问github</el-button
           >
           <el-button
             size="mini"
@@ -46,7 +46,9 @@
               <li>SpringCloud</li>
               <li>Nacos</li>
               <li>Sentinel</li>
+              <li>MySQL</li>
               <li>Seata</li>
+              <li>MQTT</li>
               <li>Minio</li>
               <li>...</li>
             </ul>
@@ -59,7 +61,21 @@
               <li>Element-ui</li>
               <li>Axios</li>
               <li>Echarts</li>
-              <li>Quill</li>
+              <li>...</li>
+            </ul>
+          </el-col>
+          <el-col :span="6">
+            <h4>部署技术</h4>
+            <ul>
+              <li>K8s</li>
+              <li>github/gitee</li>
+              <li>DevOps</li>
+              <li>Jenkens</li>
+              <li>KubeSphere</li>
+              <li>Nacos</li>
+              <li>EMQ</li>
+              <LI>Jira</LI>
+              <li>Sentinel</li>
               <li>...</li>
             </ul>
           </el-col>
@@ -76,7 +92,7 @@ export default {
   data() {
     return {
       // 版本号
-      version: "1.0.0",
+      version: "3.2.0",
     };
   },
   methods: {

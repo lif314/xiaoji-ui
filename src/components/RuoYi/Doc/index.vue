@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'RuoYiDoc',
+  name: 'XiaoJiDoc',
   data() {
     return {
-      url: 'http://doc.ruoyi.vip/ruoyi-cloud'
+      url: 'https://xiaoji.atlassian.net/'
     }
   },
   methods: {

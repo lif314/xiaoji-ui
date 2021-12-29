@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: 'RuoYiGit',
+  name: 'XiaoJiGit',
   data() {
     return {
-      url: 'https://gitee.com/y_project/RuoYi-Cloud'
+      url: 'https://gitee.com/organizations/xiao-ji-smart-home/projects'
     }
   },
   methods: {
